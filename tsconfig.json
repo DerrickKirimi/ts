@@ -3,7 +3,8 @@
     "outDir": "dist",
     "target": "ES6",
     "strict": true,
-    "outFile": "dist/bundle.js"
+    "outFile": "dist/bundle.js",
+    "noEmit":  true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
